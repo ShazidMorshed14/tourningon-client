@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600&display=swap");
+
+.logo-section {
+  p {
+    font-weight: 600;
+    font-family: "Hind Siliguri", sans-serif !important;
+  }
+  img {
+    height: 4rem;
+    width: auto;
+  }
+}
+
+.nav-section-wrapper {
+  //min-height: 72px;
+  //box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+
+  background-color: #ffffff;
+  nav {
+    background-color: #ffffff !important;
+    margin: 0 !important;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2) !important;
+
+    ul {
+      list-style: outside none none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /* background-color: #333; */
+    }
+
+    li {
+      list-style: outside none none;
+      float: left;
+    }
+
+    li a {
+      list-style: outside none none;
+      display: block;
+      color: rgb(103, 103, 133);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: 0.2s ease-in-out;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #23d244;
+      color: #ffffff !important;
+    }
+
+    #contact a {
+      background-color: #23d244;
+      color: white !important;
+    }
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: "Hind Siliguri", sans-serif !important;
+    margin: 0.5em 0.5em;
+    list-style: none;
+    a {
+      color: #050400 !important;
+      text-decoration: none;
+    }
+    img {
+      width: 9px;
+      height: 6px;
+    }
+  }
+
+  .flag-icon {
+    img {
+      height: 24px;
+      width: 24px;
+    }
+  }
+
+  .login-button-section {
+    button {
+      /* Button */
+
+      box-sizing: border-box;
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 24px;
+      gap: 8px;
+      font-weight: 600;
+
+      width: 89px;
+      height: 39px;
+
+      /* Ostad Yellow/Opac */
+
+      background: #fffbee;
+      /* Ostad Yellow/100% */
+
+      border: 1px solid #ffc000;
+      border-radius: 6px;
+
+      /* Inside auto layout */
+
+      flex: none;
+      order: 2;
+      flex-grow: 0;
+      transition: 0.1s ease-in;
+    }
+
+    button:hover {
+      background-color: #ffbf004d;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .custom-margin {
+    margin: 0em 10px;
+  }
+
+  .flag-icon {
+    margin-right: 0.5em;
+  }
+
+  nav ul li {
+    img {
+      width: 9px;
+      height: 6px;
+      margin-left: 0.5em;
+    }
+  }
+
+  .logo-section {
+    p {
+      font-weight: 600;
+      font-family: "Hind Siliguri", sans-serif !important;
+    }
+    img {
+      height: 2.5rem;
+      width: auto;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.form_container {
+  background-color: grey;
+  padding: 1.5rem;
+  margin: 1.5rem 0rem;
+  // background: url("https://img.freepik.com/free-photo/flat-lay-yellow-luggage-with-copy-space_23-2148786124.jpg?w=900&t=st=1682074363~exp=1682074963~hmac=251b41fa6ef501f37ced36dfcfa53967f89da41c3bfc2fc5bb6d834c924e8165");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .heading_section {
+    background-color: rgba(0, 0, 0, 0.582);
+    backdrop-filter: blur(5px);
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .form_wrapper {
+    width: 50rem;
+    background-color: rgba(43, 39, 39, 0.432);
+    backdrop-filter: blur(5px);
+    padding: 0.5rem;
+    border-radius: 8px;
+    color: #ffffff !important;
+  }
+
+  label {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading_section {
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
+}

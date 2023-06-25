@@ -1,0 +1,91 @@
+.call_section_wrapper {
+  //min-height: 30vh;
+  margin: 1rem 0rem;
+  width: 100%;
+  //border: 1px solid green;
+  .left {
+    //border: 1px solid red;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .right {
+    padding: 1rem;
+    //border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .product-share {
+      a {
+        margin-right: 1rem;
+      }
+    }
+
+    .call_to_book {
+      padding: 0.5rem 1rem;
+      font-weight: 600;
+      background-color: #ffde59;
+      border-radius: 12px;
+      font-size: large;
+    }
+
+    h3 {
+      font-weight: 600;
+      color: green;
+      font-size: 2.8rem;
+    }
+    h4{
+      color: green;
+    }
+
+
+    h5 {
+      font-weight: 600;
+      padding: 1rem 0rem;
+      font-size: 30px;
+      color: darkblue;
+    }
+
+    p {
+      color: rgb(92, 86, 86);
+      width: 80%;
+      font-weight: 600;
+    }
+  }
+}
+
+.lottie_section {
+  height: 22rem;
+  width: 22rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .call_section_wrapper {
+    margin: 0.5rem 0rem;
+    .right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  .lottie_section {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  h3 {
+    font-weight: 600;
+    color: green;
+    font-size: 2.2rem !important;
+  }
+  p {
+    color: rgb(92, 86, 86);
+    width: 100%;
+    font-weight: 600;
+  }
+}

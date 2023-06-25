@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-img-1 {
+  object-position: top !important;
+}
+
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+li {
+  list-style: outside none none;
+  float: left;
+}
+
+.menu-bar a {
+  margin-right: 10px;
+}
+
+.menu-bar a:last-child {
+  margin-right: 0; /* no margin on last a */
+}
+
+.my-margin50 {
+  margin: 50;
+}
+.my-margin40 {
+  margin: 40px;
+}
+.my-margin30 {
+  margin: 30px;
+}
+.my-margin20 {
+  margin: 20px;
+}
+.my-margin10 {
+  margin: 10px;
+}
+.colorRed {
+  color: red;
+}
+
+.common_list ul {
+  display: flex;
+  flex-direction: column;
+  list-style: square !important;
+}
+.common_list ul li {
+  list-style: circle !important;
+  padding: 1rem 0rem;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none !important;
+}

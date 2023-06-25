@@ -1,0 +1,126 @@
+.new_call_section_wrapper {
+  .heading_section {
+    background-color: #d4ffd2;
+    text-align: center;
+    padding: 1rem 0em;
+  }
+
+  .call_sending_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0em;
+    gap: 0.5rem;
+
+    input {
+      outline: none !important;
+      border: none;
+      width: 25em;
+      font-weight: 600 !important;
+    }
+
+    .contact_head {
+      font-weight: 600;
+      width: auto;
+      text-align: center;
+    }
+
+    .box {
+      background-color: #e1e1e1;
+      padding: 1rem;
+      border-radius: 12px;
+      font-weight: 600 !important;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .fill_green {
+      background-color: #23d244;
+      font-weight: 600 !important;
+      color: #ffffff;
+      transition: 0.1s ease-in-out;
+      border-radius: 0px !important;
+    }
+
+    .fill_green:hover {
+      background-color: #0d9225;
+    }
+  }
+
+  .image_section {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .calling_icon_section {
+    img {
+      width: 6em;
+      height: 6em;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .new_call_section_wrapper {
+    .heading_section {
+      background-color: #d4ffd2;
+      text-align: center;
+      padding: 1rem 0em;
+    }
+
+    .call_sending_section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 2em 0em;
+      gap: 0.5rem;
+
+      input {
+        outline: none !important;
+        border: none;
+        width: fit-content;
+      }
+
+      .contact_head {
+        font-weight: 600;
+        width: auto;
+        text-align: center;
+      }
+
+      .box {
+        background-color: #e1e1e1;
+        padding: 0.5rem;
+        border-radius: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: center;
+      }
+    }
+
+    .calling_icon_section {
+      img {
+        width: 3em;
+        height: 3em;
+      }
+    }
+
+    .fill_green {
+      background-color: #23d244 !important;
+      font-weight: 600 !important;
+      color: #ffffff;
+      transition: 0.1s ease-in-out;
+      border-radius: 0px !important;
+      width: 90%;
+      margin: 1rem 0em;
+    }
+
+    .fill_green:hover {
+      background-color: #0d9225 !important;
+    }
+  }
+}
+
+//yellow ->#fde059
+//green->#d4ffd2
